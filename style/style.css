@@ -347,6 +347,9 @@ input::placeholder{
     color: #445162;
     margin: 20px 0 0 430px;
 }
+.button:hover{
+    opacity: 0.7;
+}
 .button:active{
     background-color: #445162;
     color: #fff;
@@ -423,8 +426,34 @@ input::placeholder{
     top: 0;
     left: -30px;
 }
-.social-buttons{
-    margin: 36px 0 0 35px;
+.social-links-list{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin: 30px 0 0 35px;
+}
+.social-links-list-item .link{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../img/social_buttons_338.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+.social-links-list-item:hover{
+    opacity: 0.7;
+}
+.social-links-list-item .facebook{
+    background-position: -45px;
+}
+.social-links-list-item .linkedin{
+    background-position: -94px;
+}
+.social-links-list-item .google{
+    background-position: -144px;
+}
+.social-links-list-item .youtube{
+    background-position: -194px;
 }
 .footer-copy{
     width: 100%;
